@@ -416,7 +416,7 @@ void modbus_slave_thread_entry(void *parameter)
 
 #### **Configuration**
 
-- Overloading the built-in `ota` method of l`hc modbus`
+- Overloading the built-in `ota` method of `lhc modbus`
 
 ```c
 /**

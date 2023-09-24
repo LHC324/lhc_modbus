@@ -11,6 +11,8 @@
  *         4、"lhc_modbus_callback"函数用户按需编写
  *         5、按需配置"lhc_modbus_cfg.h"
  */
+
+#if 0
 #include <rtdevice.h>
 #include <board.h>
 #include "lhc_modbus_port.h"
@@ -193,6 +195,10 @@ void modbus_slave_thread_entry(void *parameter)
     rt_device_t dev = RT_NULL;
 
     RT_ASSERT(pd);
+#ifdef LHC_MODBUS_USING_SAMPLES
+    extern void lhc_modbus_slave_sample(p_lhc_modbus_t pd);
+    lhc_modbus_slave_sample(pd);
+#endif
 
     /*确认目标串口设备存在*/
     dev = rt_device_find(LHC_MODBUS_DEVICE_NAME);
@@ -574,4 +580,6 @@ void re_console(void)
     }
 }
 MSH_CMD_EXPORT(re_console, finsh console restore.);
+#endif
+
 #endif
