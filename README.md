@@ -1,6 +1,6 @@
 # Lightweight and high-performance modbus library based on C language
 
-
+![GitHub](https://img.shields.io/github/license/LHC324/lhc_modbus)![Read the Docs](https://img.shields.io/readthedocs/pip)![GitHub language count](https://img.shields.io/github/languages/count/LHC324/lhc_modbus)![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LHC324/lhc_modbus?color=abcdef)![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/LHC324/lhc_modbus?color=c75762)
 
 EN| [中文](README_zh.md)
 
