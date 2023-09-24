@@ -38,14 +38,14 @@ There are many protocol stacks related to modbus, but in reality, most of them a
 
 ## directory structure
 
-| name    | illustrate       |
-| :------ | :--------------- |
-| doc     | 文档             |
-| samples | 例子             |
-| figures | 素材             |
-| inc     | 头文件           |
-| src     | 源代码           |
-| port    | 平台移植相关接口 |
+|  name   |              illustrate               |
+| :-----: | :-----------------------------------: |
+|   doc   |               document                |
+| samples |                example                |
+| figures |            source material            |
+|   inc   |              Header file              |
+|   src   |              source code              |
+|  port   | Platform migration related interfaces |
 
 
 
